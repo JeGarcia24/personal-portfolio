@@ -1,0 +1,52 @@
+.home{
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../images/home.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.myInfoContainer{ margin: auto; }
+.welcome{
+    font-size: 40px;
+    padding: 20px;
+}
+.myName{ font-size: 40px; }
+.job{
+    font-size: 25px;
+    padding-bottom: 30px; 
+}
+.portfolio-button{
+    color: #FD3A0F;
+    font-size: 30px;
+    border: none;
+    border-radius: 30px;
+    padding: 5px 20px;
+    font-weight: bolder;
+    border: 2px solid #D4F7D4;
+ }
+ .portfolio-button:hover{
+     text-decoration: none;
+     color: #D4F7D4;
+     border: 2px solid #FD3A0F;
+ }
+ .github{
+     display: block;
+     margin: 20px;
+     color: #D4F7D4;
+     font-size: 35px;
+     text-decoration: none;
+ }
+ .github .fa{ margin: 0px 10px; }
+ .github:hover{
+     text-decoration: none;
+     color: #FD3A0F;
+ }
+ @media(min-width: 600px){
+    .myName{ display: inline; }
+ }

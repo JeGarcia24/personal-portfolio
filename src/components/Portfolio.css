@@ -1,0 +1,97 @@
+.portfolio{
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%);
+    min-height: 100vh;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    text-align: center;
+    padding: 15px;
+}
+.title-page{
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.projectContainer{
+    width: 350px;
+    max-width: 100%;
+}
+.projects {
+    width: 350px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+.imageContainer{ position: relative; }
+.project-image{
+    width: 350px;
+    max-width: 100%;
+    height: auto;
+}
+.projectDescription{
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    background-color:  rgba(212, 247, 212, 0.85);
+    transition: opacity 0.25s ease ;
+    color: #FD3A0F;
+    font-size: 16px;
+    padding: 10px 5px;
+    margin: auto;
+}
+.imageContainer:hover .projectDescription{
+    opacity: 1;
+    visibility: visible;
+}
+.descriptionLink{
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    left: 5px;
+}
+.projectLink, .githubLink{
+    color: #FD3A0F;
+    border: none;
+    border-radius: 30px;
+    padding: 5px 10px;
+    font-weight: bolder;
+    border: 2px solid #FD3A0F; 
+}
+.projectLink:hover{ border: 2px solid #FD3A0F; }
+.projectTitle{
+    color: #FD3A0F;
+    background-color: #D4F7D4;
+    padding: 5px;
+}
+.projectLink:hover{ text-decoration: none; }
+@media(min-width: 600px){
+    .title-page{
+        position: absolute;
+        top: 20px;
+        left: 100px;
+    }
+    .portfolio{
+        display: flex;
+    }
+    .projectContainer{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 75px auto 0px auto;
+    }
+    .projects, 
+    .project-image { width: 400px; }
+    .projects{ margin: 20px; }
+    .projectDescription{
+        font-size: 16px;
+        padding: 10px 5px;
+    }
+    .projectLink{ margin: 0px 10px; }
+  }
