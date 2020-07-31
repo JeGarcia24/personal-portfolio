@@ -16,7 +16,7 @@ const Contact = () => {
           <footer>
             <div className="footer-content">
               <a className="github" href="https://github.com/JeGarcia24" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i>Github</a>
-              <div className="copyright">© 2020 <a href="jeralyngarcia.com">Jeralyn Garcia</a>. All rights reserved</div>
+              <div className="copyright">© 2020 <a href="https://www.jeralyngarcia.com/" target="_blank" rel="noopener noreferrer">Jeralyn Garcia</a>. All rights reserved</div>
             </div>
           </footer>
       </div>

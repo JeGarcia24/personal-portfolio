@@ -4,7 +4,7 @@ import './Portfolio.css';
 // import photos
 import landingPage from '../images/preview-landing-page.jpg';
 import ecom from '../images/preview-ecom.jpg';
-import game from '../images/preview-game.jpg';
+import finder from '../images/preview-github-user-finder.jpg';
 import todo from '../images/preview-todo.jpg';
 import pomodoro from '../images/preview-pomodoro.jpg';
 import drumMachine from '../images/preview-drum-machine.jpg';
@@ -75,17 +75,16 @@ const Portfolio = () => {
             </div>
             <div className="projects">
               <div className="imageContainer">
-                <img className="project-image" src={game} alt="website-preview" />
-                <span className="projectDescription">Rock-paper-scrissors game with hand shake animation, 
-                  score game, and reset game button. Used HTML, CSS, 
-                  Javascript for functions, Bootstrap and jQuery for modal.
+                <img className="project-image" src={finder} alt="website-preview" />
+                <span className="projectDescription">Used HTML, CSS, 
+                  React JS, GitHub API. For style: Bootstrap, Font-Awesome, Semantic UI.
                   This is mobile responsive.
                   <div className="descriptionLink"> 
-                    <a className="projectLink" href="https://jegarcia24.github.io/rock-paper-scissors_game/" target="_blank" rel="noopener noreferrer">Visit Website</a>
+                    <a className="projectLink" href="https://jegarcia24.github.io/user-finder-app/" target="_blank" rel="noopener noreferrer">Visit Website</a>
                   </div>
                 </span>
               </div>
-                <p className="projectTitle">JavaScript Game</p>
+                <p className="projectTitle">GitHub Profile Finder App</p>
             </div>
             <div className="projects">
               <div className="imageContainer">
